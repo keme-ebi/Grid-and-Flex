@@ -13,7 +13,10 @@ main {
 }
 main .cars {
   width: 100%;
+<<<<<<< HEAD
   /* height: 100vh; */
+=======
+>>>>>>> 83082ba54a3d03439587682914be8b5e190ce345
   display: flex;
   align-items: center;
 }
