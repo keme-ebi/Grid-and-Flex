@@ -13,7 +13,6 @@ main {
 }
 main .cars {
   width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -215,6 +214,7 @@ nav a:hover {
 @media screen and (min-width: 800px) and (max-width: 1000px) {
   main .cars {
     width: 60vw;
+    height: 100vh;
   }
 
   main > .cars > div {
