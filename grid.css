@@ -1,0 +1,67 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background-color: rgb(126, 123, 100);
+}
+
+main {
+ display: grid;
+ grid-template-areas:
+  'o o y'
+  'g a a'
+  'g b b';
+ gap: 10px;
+ width: 50%;
+ margin: 60px auto;
+}
+
+main div {
+ padding: 5em;
+}
+
+#orange {
+ background-color: rgb(180, 90, 6);
+ grid-area: o;
+}
+
+#yellow {
+ background-color: rgb(196, 196, 40);
+ grid-area: y;
+}
+
+#green {
+ background-color: rgb(11, 199, 11);
+ grid-area: g;
+}
+
+#aqua {
+ background-color: rgb(12, 161, 161);
+ grid-area: a;
+}
+
+#brown {
+ background-color: rgb(104, 12, 12);
+ grid-area: b;
+}
+
+/* nav styling */
+nav{
+ background-color: rgb(47, 233, 240);
+ padding: 15px;
+ justify-content: space-evenly;
+}
+nav a{
+ font-size: 20px;
+ text-decoration: none;
+ background-color: ghostwhite;
+ padding: 10PX;
+ color: crimson;
+}
+
+nav a:hover{
+ background-color: crimson;
+ color: ghostwhite;
+}
