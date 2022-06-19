@@ -11,6 +11,7 @@ main {
  display: grid;
  grid-template-areas:
   'o o y'
+  'o o y'
   'g a a'
   'g b b';
  gap: 10px;
